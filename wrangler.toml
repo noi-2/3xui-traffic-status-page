@@ -1,0 +1,8 @@
+name = "test"
+# main = "src/index.js" # 如果你有 worker 代码
+compatibility_date = "2024-09-23"
+
+# 添加这一段 👇
+[assets]
+directory = "./"  # 注意：这里改成你实际的输出目录名，比如 ./dist 或 ./build 或 ./public
+# binding = "ASSETS"    # 可选，用于在 Worker 代码中绑定
